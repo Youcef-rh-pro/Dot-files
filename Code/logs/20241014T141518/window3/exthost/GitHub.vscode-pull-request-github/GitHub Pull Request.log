@@ -1,0 +1,21 @@
+2024-10-14 14:33:46.513 [warning] /home/youcef/.ssh/config: ENOENT: no such file or directory, open '/home/youcef/.ssh/config'
+2024-10-14 14:33:46.513 [info] Activation> Extension version: 0.98.0
+2024-10-14 14:33:46.842 [info] Looking for git repository
+2024-10-14 14:33:46.842 [info] Found 0 repositories during activation
+2024-10-14 14:33:46.842 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-14 14:33:46.844 [info] Registering git provider
+2024-10-14 14:34:28.742 [warning] /home/youcef/.ssh/config: ENOENT: no such file or directory, open '/home/youcef/.ssh/config'
+2024-10-14 14:34:28.742 [info] Activation> Extension version: 0.98.0
+2024-10-14 14:34:31.432 [info] Looking for git repository
+2024-10-14 14:34:31.432 [info] Found 0 repositories during activation
+2024-10-14 14:34:31.432 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-14 14:34:31.439 [info] Registering git provider
+2024-10-14 14:34:31.439 [info] Review+0> Validate state in progress
+2024-10-14 14:34:31.439 [info] Review+0> Validating state...
+2024-10-14 14:34:31.471 [info] Found GitHub remote for folder /home/youcef/Youcef-dev/devtool/todo-app
+2024-10-14 14:34:32.114 [info] Trying to use globalState for assignableUsers.
+2024-10-14 14:34:32.322 [info] Review+0> No matching pull request metadata found locally for current branch master
+2024-10-14 14:34:32.361 [info] No globalState for assignableUsers.
+2024-10-14 14:34:32.899 [info] Review+0> No matching pull request metadata found on GitHub for current branch master
+2024-10-14 14:35:29.658 [info] Repo state for file:///home/youcef/Youcef-dev/devtool/todo-app changed.
+2024-10-14 14:35:29.658 [info] Repo file:///home/youcef/Youcef-dev/devtool/todo-app has already been setup.

@@ -1,0 +1,91 @@
+2024-10-17 13:07:59.303 [info] Using the Electron fetcher.
+2024-10-17 13:07:59.303 [info] Initializing Git extension service.
+2024-10-17 13:07:59.303 [info] Successfully activated the vscode.git extension.
+2024-10-17 13:07:59.303 [info] Enablement state of the vscode.git extension: true.
+2024-10-17 13:07:59.303 [info] Successfully registered Git commit message provider.
+2024-10-17 13:07:59.396 [info] Logged in as Youcef-rh-pro
+2024-10-17 13:08:00.606 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 13:08:00.796 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 13:08:00.875 [info] Registering default platform agent...
+2024-10-17 13:08:00.875 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-17 13:08:00.875 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-17 13:08:00.875 [info] Successfully registered GitHub PR title and description provider.
+2024-10-17 13:08:01.484 [info] Fetched model metadata in 843ms 6dc2c7d6-1f64-46af-965c-d06253ce1a13
+2024-10-17 13:08:02.109 [info] activationBlocker from 'languageModelAccess' took for 2524ms
+2024-10-17 13:08:12.023 [info] Using the Electron fetcher.
+2024-10-17 13:08:12.023 [info] Initializing Git extension service.
+2024-10-17 13:08:12.023 [info] Successfully activated the vscode.git extension.
+2024-10-17 13:08:12.023 [info] Enablement state of the vscode.git extension: true.
+2024-10-17 13:08:12.023 [info] Successfully registered Git commit message provider.
+2024-10-17 13:08:12.433 [info] Logged in as Youcef-rh-pro
+2024-10-17 13:08:13.427 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 13:08:13.512 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 13:08:13.559 [info] Registering default platform agent...
+2024-10-17 13:08:13.560 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-17 13:08:13.560 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-17 13:08:13.560 [info] Successfully registered GitHub PR title and description provider.
+2024-10-17 13:08:13.667 [info] Fetched model metadata in 221ms b350d01d-a3de-4cd8-a850-b9744683d62a
+2024-10-17 13:08:14.171 [info] activationBlocker from 'languageModelAccess' took for 1747ms
+2024-10-17 13:23:15.616 [info] Fetched model metadata in 1333ms 11f3c162-6183-45d3-8028-3584bc0e8a1a
+2024-10-17 13:33:13.442 [info] Logged in as Youcef-rh-pro
+2024-10-17 13:33:14.992 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 13:33:15.026 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 13:38:16.472 [info] Fetched model metadata in 843ms ee0cefbf-ddc5-4ad1-8aa5-c8ed1f155ad2
+2024-10-17 13:53:01.995 [info] Fetched model metadata in 1454ms aa6fc59d-40b6-46ed-bec7-7b2a56d2cdf9
+2024-10-17 13:58:15.008 [info] Logged in as Youcef-rh-pro
+2024-10-17 13:58:16.336 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 13:58:16.371 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 14:03:16.213 [info] Fetched model metadata in 1157ms 11f0bda2-1595-494d-b901-2e30f93c176b
+2024-10-17 14:13:17.443 [info] Fetched model metadata in 1046ms bad84582-424c-4a9c-bbc4-025cdf5cc81e
+2024-10-17 14:23:16.348 [info] Logged in as Youcef-rh-pro
+2024-10-17 14:23:16.386 [info] Logged in as Youcef-rh-pro
+2024-10-17 14:23:16.424 [info] copilot token chat_enabled: undefined, sku: 
+2024-10-17 14:23:16.554 [info] Logged in as Youcef-rh-pro
+2024-10-17 14:23:16.560 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-17 14:23:16.560 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-17 14:23:16.560 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-17 14:23:16.560 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-17 14:23:16.560 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-17 14:23:16.560 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-17 14:23:16.560 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-17 14:28:17.467 [info] Logged in as Youcef-rh-pro
+2024-10-17 14:28:17.474 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-17 14:28:17.474 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-17 14:28:17.492 [info] Logged in as Youcef-rh-pro
+2024-10-17 14:33:16.245 [info] Logged in as Youcef-rh-pro
+2024-10-17 14:33:17.498 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 14:33:17.570 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 14:33:17.575 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-17 14:33:17.575 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-17 14:33:17.575 [info] Successfully registered GitHub PR title and description provider.
+2024-10-17 14:33:18.144 [info] Fetched model metadata in 637ms 55e1d899-7bac-4f9c-b7a1-ec2808563113
+2024-10-17 14:50:35.058 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to fetch models (24a5b080-52d0-43ce-bc97-6dca9a19e4a2)
+2024-10-17 14:50:36.088 [info] Fetched model metadata in 1030ms 56bc4433-df71-4451-9acf-a9d69640da13
+2024-10-17 15:00:03.632 [info] Logged in as Youcef-rh-pro
+2024-10-17 15:00:05.007 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 15:00:05.017 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 15:05:37.722 [info] Fetched model metadata in 1124ms 991e7cd4-922a-4e19-87df-c09807757617
+2024-10-17 15:20:38.900 [info] Fetched model metadata in 1169ms 899ebaf4-e5b1-4c4e-aa2b-1fc0e6cf3ab5
+2024-10-17 15:25:05.019 [info] Logged in as Youcef-rh-pro
+2024-10-17 15:25:06.218 [info] Got Copilot token for Youcef-rh-pro
+2024-10-17 15:25:06.229 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-17 15:35:39.734 [info] Fetched model metadata in 827ms b98bafa0-1bf9-421b-8cce-ffa8ed93d594
+2024-10-18 00:17:29.808 [info] Logged in as Youcef-rh-pro
+2024-10-18 00:17:30.854 [info] Got Copilot token for Youcef-rh-pro
+2024-10-18 00:17:30.863 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-18 00:17:31.378 [info] Fetched model metadata in 512ms 3ad9b045-e862-4423-8aeb-269ea9cbeedc
+2024-10-18 00:32:32.010 [info] Fetched model metadata in 613ms 658dc0ab-4199-464c-ba96-84931f5a7159
+2024-10-18 00:42:30.865 [info] Logged in as Youcef-rh-pro
+2024-10-18 00:42:31.783 [info] Got Copilot token for Youcef-rh-pro
+2024-10-18 00:42:31.794 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-18 00:47:33.059 [info] Fetched model metadata in 1043ms bf94aadb-b00e-4fba-8328-99b8953ad687

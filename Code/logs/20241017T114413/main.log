@@ -1,0 +1,15 @@
+2024-10-17 11:44:14.091 [info] update#setState idle
+2024-10-17 11:44:44.096 [info] update#setState checking for updates
+2024-10-17 11:44:44.108 [info] update#setState idle
+2024-10-17 12:44:46.299 [info] update#setState checking for updates
+2024-10-17 12:44:46.302 [info] update#setState idle
+2024-10-17 13:08:07.317 [error] [UtilityProcessWorker]: terminated unexpectedly with code 1308088176, signal: unknown
+2024-10-17 13:08:07.347 [info] Extension host with pid 41984 exited with code: 0, signal: unknown.
+2024-10-17 13:44:46.302 [info] update#setState checking for updates
+2024-10-17 13:44:46.307 [info] update#setState idle
+2024-10-17 14:46:32.426 [info] update#setState checking for updates
+2024-10-17 14:46:32.427 [info] update#setState idle
+2024-10-18 00:13:55.144 [info] update#setState checking for updates
+2024-10-18 00:13:55.147 [info] update#setState idle
+2024-10-18 00:44:30.193 [info] Extension host with pid 54868 exited with code: 0, signal: unknown.
+2024-10-18 00:44:31.194 [error] Extension host with pid 54868 still exists, forcefully killing it...

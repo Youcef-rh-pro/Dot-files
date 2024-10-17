@@ -1,0 +1,135 @@
+2024-10-15 09:27:05.759 [info] Using the Electron fetcher.
+2024-10-15 09:27:05.759 [info] Initializing Git extension service.
+2024-10-15 09:27:05.759 [info] Successfully activated the vscode.git extension.
+2024-10-15 09:27:05.759 [info] Enablement state of the vscode.git extension: true.
+2024-10-15 09:27:05.759 [info] Successfully registered Git commit message provider.
+2024-10-15 09:27:07.862 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:27:07.875 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to get copilot token
+2024-10-15 09:27:07.875 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 09:27:07.875 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 09:27:07.875 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 09:27:07.876 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 09:27:07.876 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 09:27:07.893 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:27:07.895 [info] activationBlocker from 'languageModelAccess' took for 2536ms
+2024-10-15 09:28:07.900 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:28:07.911 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 09:30:56.143 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:30:57.629 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 09:30:57.786 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 09:30:57.831 [info] Registering default platform agent...
+2024-10-15 09:30:57.832 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-15 09:30:57.832 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-15 09:30:57.832 [info] Successfully registered GitHub PR title and description provider.
+2024-10-15 09:30:58.547 [info] Fetched model metadata in 647ms 18981075-c535-481b-8cb5-44582bf85ffe
+2024-10-15 09:31:12.444 [info] Using the Electron fetcher.
+2024-10-15 09:31:12.444 [info] Initializing Git extension service.
+2024-10-15 09:31:12.444 [info] Successfully activated the vscode.git extension.
+2024-10-15 09:31:12.444 [info] Enablement state of the vscode.git extension: true.
+2024-10-15 09:31:12.444 [info] Successfully registered Git commit message provider.
+2024-10-15 09:31:12.733 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:31:13.645 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 09:31:13.812 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 09:31:13.847 [info] Registering default platform agent...
+2024-10-15 09:31:13.847 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-15 09:31:13.847 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-15 09:31:13.847 [info] Successfully registered GitHub PR title and description provider.
+2024-10-15 09:31:13.936 [info] Fetched model metadata in 255ms 2fc1581d-2ad1-4c7e-b267-de05ca8ef25d
+2024-10-15 09:31:14.631 [info] activationBlocker from 'languageModelAccess' took for 1777ms
+2024-10-15 09:46:14.662 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to fetch models (be7b9d4e-f0e5-4597-b46a-b2af462323ac)
+2024-10-15 09:46:14.681 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to fetch models (eb37f16d-2004-4157-8133-086ecbe209c6)
+2024-10-15 09:56:13.662 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:56:13.697 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:56:13.742 [info] copilot token chat_enabled: undefined, sku: 
+2024-10-15 09:56:13.861 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:56:13.868 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 09:56:13.868 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 09:56:13.868 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 09:56:13.868 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 09:56:13.868 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 09:56:13.879 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:01:14.703 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:01:14.711 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 10:01:14.711 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 10:01:14.729 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:13:55.455 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:13:55.461 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:14:55.486 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:14:55.497 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:15:27.563 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:15:27.575 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:16:27.598 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:16:27.610 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:17:57.066 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:17:57.072 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:18:57.093 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:18:57.104 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:19:00.745 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:19:00.758 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:19:27.832 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:19:27.837 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:20:27.859 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:20:27.870 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:29:30.848 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:29:32.845 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 10:29:32.949 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 10:29:32.953 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-15 10:29:32.953 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-15 10:29:32.953 [info] Successfully registered GitHub PR title and description provider.
+2024-10-15 10:29:33.668 [info] Fetched model metadata in 631ms 09d37793-fa28-412b-b1aa-9454c4f2f619
+2024-10-15 10:44:34.895 [info] Fetched model metadata in 946ms 0a530eac-9dea-44e7-b218-5d7ca8a5ea89
+2024-10-15 10:54:33.627 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:54:33.663 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:54:33.693 [info] copilot token chat_enabled: undefined, sku: 
+2024-10-15 10:54:33.831 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:54:33.836 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 10:54:33.836 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 10:54:33.837 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 10:54:33.837 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 10:54:33.837 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 10:59:35.688 [info] Logged in as Youcef-rh-pro
+2024-10-15 10:59:35.696 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 10:59:35.696 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 10:59:35.714 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:08:39.446 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:08:39.462 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 11:09:14.141 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:09:14.154 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 11:09:33.912 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:09:33.921 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 11:09:33.921 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 11:09:33.941 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:10:42.478 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:10:42.493 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 11:11:42.511 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:11:42.522 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 11:12:24.694 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:12:24.707 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 11:13:20.854 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:13:20.899 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 11:18:02.562 [info] Logged in as Youcef-rh-pro
+2024-10-15 11:18:02.574 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"

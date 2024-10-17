@@ -1,0 +1,14 @@
+2024-10-15 19:14:39.061 [info] Using the Electron fetcher.
+2024-10-15 19:14:39.061 [info] Initializing Git extension service.
+2024-10-15 19:14:39.061 [info] Successfully activated the vscode.git extension.
+2024-10-15 19:14:39.061 [info] Enablement state of the vscode.git extension: true.
+2024-10-15 19:14:39.061 [info] Successfully registered Git commit message provider.
+2024-10-15 19:14:39.244 [info] Logged in as Youcef-rh-pro
+2024-10-15 19:14:40.154 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 19:14:40.210 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 19:14:40.238 [info] Registering default platform agent...
+2024-10-15 19:14:40.239 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-15 19:14:40.239 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-15 19:14:40.239 [info] Successfully registered GitHub PR title and description provider.
+2024-10-15 19:14:40.691 [info] Fetched model metadata in 529ms 6ed45a08-a747-4eff-83cc-b32d5572212a
+2024-10-15 19:14:41.235 [info] activationBlocker from 'languageModelAccess' took for 2504ms

@@ -1,0 +1,53 @@
+2024-10-15 19:14:39.636 [info] Using the Electron fetcher.
+2024-10-15 19:14:39.636 [info] Initializing Git extension service.
+2024-10-15 19:14:39.636 [info] Successfully activated the vscode.git extension.
+2024-10-15 19:14:39.636 [info] Enablement state of the vscode.git extension: true.
+2024-10-15 19:14:39.636 [info] Successfully registered Git commit message provider.
+2024-10-15 19:14:39.804 [info] Logged in as Youcef-rh-pro
+2024-10-15 19:14:40.600 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 19:14:40.698 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 19:14:40.724 [info] Registering default platform agent...
+2024-10-15 19:14:40.724 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-10-15 19:14:40.724 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-10-15 19:14:40.724 [info] Successfully registered GitHub PR title and description provider.
+2024-10-15 19:14:40.805 [info] Fetched model metadata in 194ms f1d150eb-ea98-49a7-8798-c491b08f133d
+2024-10-15 19:14:41.360 [info] activationBlocker from 'languageModelAccess' took for 2184ms
+2024-10-15 19:29:41.985 [info] Fetched model metadata in 612ms a6649a9d-8740-4bb5-a38b-ee573d2c128d
+2024-10-15 19:39:53.871 [info] Logged in as Youcef-rh-pro
+2024-10-15 19:39:55.027 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 19:39:55.059 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 19:40:25.504 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to fetch models (218f4165-5c40-47fc-910b-95c521b2117f)
+2024-10-15 19:40:27.279 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to fetch models (5d42df6f-1fe4-4077-9dd9-45fcff157997)
+2024-10-15 19:44:56.004 [info] Fetched model metadata in 740ms 258cc9d4-5b2e-42e0-846e-bf9a75f4bae4
+2024-10-15 19:55:27.851 [info] Fetched model metadata in 561ms faf94599-c5e1-4a20-95b8-54204972a8f4
+2024-10-15 20:04:55.042 [info] Logged in as Youcef-rh-pro
+2024-10-15 20:04:56.104 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 20:04:56.136 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 20:10:28.404 [info] Fetched model metadata in 537ms b1d98bfd-cd70-4c4a-aabb-0667ff60bd06
+2024-10-15 20:25:29.263 [info] Fetched model metadata in 804ms c603e7bb-399f-4ef5-a68b-7f608d3be6bd
+2024-10-15 20:29:56.118 [info] Logged in as Youcef-rh-pro
+2024-10-15 20:29:57.232 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 20:29:57.262 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 20:40:30.180 [info] Fetched model metadata in 890ms e72ef5c0-8168-44bb-9a42-f20750c79953
+2024-10-15 20:54:57.247 [info] Logged in as Youcef-rh-pro
+2024-10-15 20:54:58.217 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 20:54:58.245 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 20:54:58.823 [info] Fetched model metadata in 567ms cf64a5e4-270c-4481-8a0a-8e60fb38c07c
+2024-10-15 21:09:59.438 [info] Fetched model metadata in 594ms 3788278c-163a-4cac-8be5-db9bf62635ac
+2024-10-15 23:34:08.669 [info] Logged in as Youcef-rh-pro
+2024-10-15 23:34:09.610 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 23:34:09.623 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 23:34:10.108 [info] Fetched model metadata in 494ms 80299104-6a4b-4e90-8471-89a024d34a3d
+2024-10-15 23:44:12.816 [info] Fetched model metadata in 776ms 7cd2c3fd-0fbe-4956-bc61-ac2cead469bc
+2024-10-15 23:59:09.615 [info] Logged in as Youcef-rh-pro
+2024-10-15 23:59:10.653 [info] Got Copilot token for Youcef-rh-pro
+2024-10-15 23:59:10.663 [info] copilot token chat_enabled: true, sku: free_educational
+2024-10-15 23:59:11.282 [info] Fetched model metadata in 613ms 0c74867d-5e9c-4be2-b12d-121b6d5b81de
+2024-10-16 00:14:41.441 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to fetch models (16d36a65-6c05-48f8-8cc7-5293981b0c09)
+2024-10-16 00:14:42.058 [info] Fetched model metadata in 617ms 81188e95-bd25-42ae-baad-795741cccb50

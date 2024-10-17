@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <button id="cats">cat buttons</button>
+  <img src="#">
+  <script>
+   
+const catBtn=document.getElementById('cats')
+catBtn.addEventListener('click',(e)=>{
+  e.preventDefault()
+ const img = document.querySelector('img');
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=0V5EjxV7zAjuxvk8vX2qYwT2vSoCqhGo&s=dogs', {mode: 'cors'})
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(response) {
+        img.src=response.data.images.original.url
+        
+      });
+})
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,12 @@
+2024-10-15 09:27:05.908 [warning] /home/youcef/.ssh/config: ENOENT: no such file or directory, open '/home/youcef/.ssh/config'
+2024-10-15 09:27:05.908 [info] Activation> Extension version: 0.98.0
+2024-10-15 09:27:07.872 [info] Looking for git repository
+2024-10-15 09:27:07.872 [info] Found 0 repositories during activation
+2024-10-15 09:27:07.872 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-15 09:27:07.872 [info] Registering git provider
+2024-10-15 09:31:12.476 [warning] /home/youcef/.ssh/config: ENOENT: no such file or directory, open '/home/youcef/.ssh/config'
+2024-10-15 09:31:12.476 [info] Activation> Extension version: 0.98.0
+2024-10-15 09:31:12.704 [info] Looking for git repository
+2024-10-15 09:31:12.704 [info] Found 0 repositories during activation
+2024-10-15 09:31:12.704 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-15 09:31:12.705 [info] Registering git provider

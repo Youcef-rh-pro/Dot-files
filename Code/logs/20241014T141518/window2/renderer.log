@@ -1,0 +1,320 @@
+2024-10-14 14:15:24.195 [info] Started local extension host with pid 5531.
+2024-10-14 14:15:27.286 [info] [perf] Render performance baseline is 80ms
+2024-10-14 14:21:29.081 [info] Started local extension host with pid 7031.
+2024-10-14 14:21:31.946 [info] [perf] Render performance baseline is 113ms
+2024-10-14 14:21:37.595 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2024-10-14 14:21:37.595 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2024-10-14 14:21:37.617 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2024-10-14 14:46:51.653 [error] [Extension Host] [default] Error sending telemetry FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN copilot-telemetry-service.githubusercontent.com)
+    at fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Aae.fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-10-14 15:26:33.334 [error] <semantic> TypeScript Server Error (5.6.3)
+BADCLIENT: Bad error code, 7027 not found in range 160..162 (found: ); could have caused this error:
+Debug Failure. Token and statement should start at the same point. {"statementKind":"ReturnStatement","tokenKind":"GreaterThanToken","errorCode":7027,"start":160,"length":2}
+Error: BADCLIENT: Bad error code, 7027 not found in range 160..162 (found: ); could have caused this error:
+Debug Failure. Token and statement should start at the same point. {"statementKind":"ReturnStatement","tokenKind":"GreaterThanToken","errorCode":7027,"start":160,"length":2}
+    at doChange27 (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159401:11)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159384:79
+    at _ChangeTracker.with (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:175529:5)
+    at Object.getCodeActions (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159384:62)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:46
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:10)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150470:33
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getCodeFixesAtPosition (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150468:12)
+    at IpcIOSession.getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192329:50)
+    at getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:190394:43)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.6.3)
+BADCLIENT: Bad error code, 7027 not found in range 160..162 (found: ); could have caused this error:
+Debug Failure. Token and statement should start at the same point. {"statementKind":"ReturnStatement","tokenKind":"GreaterThanToken","errorCode":7027,"start":160,"length":2}
+Error: BADCLIENT: Bad error code, 7027 not found in range 160..162 (found: ); could have caused this error:
+Debug Failure. Token and statement should start at the same point. {"statementKind":"ReturnStatement","tokenKind":"GreaterThanToken","errorCode":7027,"start":160,"length":2}
+    at doChange27 (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159401:11)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159384:79
+    at _ChangeTracker.with (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:175529:5)
+    at Object.getCodeActions (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159384:62)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:46
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:10)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150470:33
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getCodeFixesAtPosition (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150468:12)
+    at IpcIOSession.getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192329:50)
+    at getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:190394:43)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:474312)
+    at v.dispatchResponse (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:468282)
+    at v.dispatchMessage (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:467080)
+    at ChildProcess.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:466573)
+    at ChildProcess.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-14 15:34:56.075 [error] [Extension Host] [default] Error sending telemetry FetchError: read ENETUNREACH
+    at fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Aae.fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENETUNREACH',
+  errno: -101,
+  erroredSysCall: 'read'
+}
+2024-10-14 15:48:06.128 [error] <semantic> TypeScript Server Error (5.6.3)
+BADCLIENT: Bad error code, 1312 not found in range 191..192 (found: ); could have caused this error:
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isShorthandPropertyAssignment'.
+Error: BADCLIENT: Bad error code, 1312 not found in range 191..192 (found: ); could have caused this error:
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isShorthandPropertyAssignment'.
+    at cast (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:3324:16)
+    at getProperty2 (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:158765:10)
+    at Object.getCodeActions (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:158755:22)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:46
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:10)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150470:33
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getCodeFixesAtPosition (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150468:12)
+    at IpcIOSession.getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192329:50)
+    at getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:190394:43)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.6.3)
+BADCLIENT: Bad error code, 1312 not found in range 191..192 (found: ); could have caused this error:
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isShorthandPropertyAssignment'.
+Error: BADCLIENT: Bad error code, 1312 not found in range 191..192 (found: ); could have caused this error:
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isShorthandPropertyAssignment'.
+    at cast (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:3324:16)
+    at getProperty2 (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:158765:10)
+    at Object.getCodeActions (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:158755:22)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:46
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:10)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150470:33
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getCodeFixesAtPosition (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150468:12)
+    at IpcIOSession.getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192329:50)
+    at getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:190394:43)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:474312)
+    at v.dispatchResponse (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:468282)
+    at v.dispatchMessage (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:467080)
+    at ChildProcess.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:466573)
+    at ChildProcess.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-14 16:01:32.359 [error] [network] #23: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 16:01:32.360 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 16:01:42.668 [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-14 16:02:13.896 [error] [Extension Host] [default] Error sending telemetry FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN copilot-telemetry-service.githubusercontent.com)
+    at fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Aae.fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-10-14 16:06:32.371 [error] [network] #24: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 16:06:32.418 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 16:06:43.348 [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-14 16:38:51.605 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2024-10-14 16:38:51.606 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2024-10-14 16:38:51.645 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2024-10-14 16:38:51.672 [error] Tool "copilot_codebase" already has an implementation.: Error: Tool "copilot_codebase" already has an implementation.
+    at mBe.registerToolImplementation (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:543:4415)
+    at HBt.$registerTool (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:600:33898)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 16:38:51.672 [error] Tool "copilot_vscodeAPI" already has an implementation.: Error: Tool "copilot_vscodeAPI" already has an implementation.
+    at mBe.registerToolImplementation (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:543:4415)
+    at HBt.$registerTool (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:600:33898)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:03:43.183 [error] [network] #30: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 17:03:43.184 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 17:08:43.187 [error] [network] #31: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 17:08:43.187 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 17:09:01.390 [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-14 17:13:43.191 [error] [network] #32: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 17:13:43.191 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 17:13:50.974 [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-14 17:18:43.223 [error] [network] #33: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 17:18:43.224 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 17:18:53.679 [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-14 17:23:43.234 [error] [network] #34: https://az764295.vo.msecnd.net/extensions/chat.json - error GET Offline
+2024-10-14 17:23:43.268 [warning] Failed to fetch chat participant registry Offline
+2024-10-14 17:26:59.617 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2024-10-14 17:26:59.617 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2024-10-14 17:26:59.636 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2024-10-14 17:26:59.662 [error] Tool "copilot_codebase" already has an implementation.: Error: Tool "copilot_codebase" already has an implementation.
+    at mBe.registerToolImplementation (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:543:4415)
+    at HBt.$registerTool (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:600:33898)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:26:59.662 [error] Tool "copilot_vscodeAPI" already has an implementation.: Error: Tool "copilot_vscodeAPI" already has an implementation.
+    at mBe.registerToolImplementation (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:543:4415)
+    at HBt.$registerTool (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:600:33898)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.319 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2024-10-14 17:57:02.319 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2024-10-14 17:57:02.339 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2024-10-14 17:57:02.358 [error] Tool "copilot_codebase" already has an implementation.: Error: Tool "copilot_codebase" already has an implementation.
+    at mBe.registerToolImplementation (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:543:4415)
+    at HBt.$registerTool (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:600:33898)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.359 [error] Tool "copilot_vscodeAPI" already has an implementation.: Error: Tool "copilot_vscodeAPI" already has an implementation.
+    at mBe.registerToolImplementation (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:543:4415)
+    at HBt.$registerTool (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:600:33898)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.895 [error] Chat response provider with identifier github.copilot-chat/gpt-3.5-turbo is already registered.: Error: Chat response provider with identifier github.copilot-chat/gpt-3.5-turbo is already registered.
+    at FAe.registerLanguageModelChat (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:13699)
+    at rTt.$registerLanguageModelProvider (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:16129)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.896 [error] Chat response provider with identifier github.copilot-chat/gpt-4 is already registered.: Error: Chat response provider with identifier github.copilot-chat/gpt-4 is already registered.
+    at FAe.registerLanguageModelChat (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:13699)
+    at rTt.$registerLanguageModelProvider (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:16129)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.896 [error] Chat response provider with identifier github.copilot-chat/gpt-4o is already registered.: Error: Chat response provider with identifier github.copilot-chat/gpt-4o is already registered.
+    at FAe.registerLanguageModelChat (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:13699)
+    at rTt.$registerLanguageModelProvider (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:16129)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.896 [error] Chat response provider with identifier github.copilot-chat/gpt-4o-mini is already registered.: Error: Chat response provider with identifier github.copilot-chat/gpt-4o-mini is already registered.
+    at FAe.registerLanguageModelChat (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:13699)
+    at rTt.$registerLanguageModelProvider (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:16129)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)
+2024-10-14 17:57:02.897 [error] Chat response provider with identifier github.copilot-chat/gpt-4-0125-preview is already registered.: Error: Chat response provider with identifier github.copilot-chat/gpt-4-0125-preview is already registered.
+    at FAe.registerLanguageModelChat (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:13699)
+    at rTt.$registerLanguageModelProvider (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:488:16129)
+    at qlt.S (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41756)
+    at qlt.Q (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:41534)
+    at qlt.M (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:40622)
+    at qlt.L (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:39726)
+    at NQ.value (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:38520)
+    at x.B (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:733)
+    at x.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:951)
+    at r6.fire (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:634:10283)
+    at l.onmessage (vscode-file://vscode-app/snap/code/172/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3119:11714)

@@ -1,0 +1,37 @@
+2024-10-17 11:44:23.195 [info] [certificates] Removed 1 expired certificates
+2024-10-17 11:44:23.808 [info] [fetcher] Using Helix fetcher.
+2024-10-17 11:44:23.808 [info] [code-referencing] Public code references are enabled.
+2024-10-17 11:44:23.840 [info] [auth] Successfully authenticated
+2024-10-17 12:09:24.521 [info] [fetcher] Using Helix fetcher.
+2024-10-17 12:09:24.521 [info] [code-referencing] Public code references are enabled.
+2024-10-17 12:26:39.490 [error] [default] Error sending telemetry FetchError: The pending stream has been canceled (caused by: read ETIMEDOUT)
+    at fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Aae.fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-10-17 12:34:27.286 [info] [fetcher] Using Helix fetcher.
+2024-10-17 12:34:27.286 [info] [code-referencing] Public code references are enabled.
+2024-10-17 12:59:28.041 [info] [fetcher] Using Helix fetcher.
+2024-10-17 12:59:28.041 [info] [code-referencing] Public code references are enabled.
+2024-10-17 13:24:28.564 [info] [fetcher] Using Helix fetcher.
+2024-10-17 13:24:28.564 [info] [code-referencing] Public code references are enabled.
+2024-10-17 13:49:29.167 [info] [fetcher] Using Helix fetcher.
+2024-10-17 13:49:29.167 [info] [code-referencing] Public code references are enabled.
+2024-10-17 14:14:29.883 [info] [fetcher] Using Helix fetcher.
+2024-10-17 14:14:29.883 [info] [code-referencing] Public code references are enabled.
+2024-10-17 14:41:16.526 [info] [fetcher] Using Helix fetcher.
+2024-10-17 14:41:16.526 [info] [code-referencing] Public code references are enabled.
+2024-10-17 15:06:17.064 [info] [fetcher] Using Helix fetcher.
+2024-10-17 15:06:17.064 [info] [code-referencing] Public code references are enabled.
+2024-10-17 15:31:51.356 [info] [fetcher] Using Helix fetcher.
+2024-10-17 15:31:51.356 [info] [code-referencing] Public code references are enabled.
+2024-10-18 00:24:15.398 [info] [fetcher] Using Helix fetcher.
+2024-10-18 00:24:15.398 [info] [code-referencing] Public code references are enabled.
+2024-10-18 00:49:15.859 [info] [fetcher] Using Helix fetcher.
+2024-10-18 00:49:15.860 [info] [code-referencing] Public code references are enabled.

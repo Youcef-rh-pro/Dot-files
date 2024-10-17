@@ -1,0 +1,20 @@
+2024-10-15 09:27:03.211 [info] Using the Electron fetcher.
+2024-10-15 09:27:03.211 [info] Initializing Git extension service.
+2024-10-15 09:27:03.211 [info] Successfully activated the vscode.git extension.
+2024-10-15 09:27:03.211 [info] Enablement state of the vscode.git extension: true.
+2024-10-15 09:27:03.211 [info] Successfully registered Git commit message provider.
+2024-10-15 09:27:06.234 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:27:06.259 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28): Failed to get copilot token
+2024-10-15 09:27:06.259 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2024-10-15 09:27:06.259 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 09:27:06.259 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 09:27:06.259 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2024-10-15 09:27:06.259 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-15 09:27:06.561 [info] Logged in as Youcef-rh-pro
+2024-10-15 09:27:06.566 [info] activationBlocker from 'languageModelAccess' took for 4140ms

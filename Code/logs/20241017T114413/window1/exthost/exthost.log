@@ -1,0 +1,118 @@
+2024-10-17 11:44:17.363 [info] Extension host with pid 32906 started
+2024-10-17 11:44:17.363 [info] Skipping acquiring lock for /home/youcef/.config/Code/User/workspaceStorage/f259a8ba3a347917223bd3ae1fdf28b2.
+2024-10-17 11:44:18.050 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-17 11:44:18.083 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2024-10-17 11:44:19.167 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-17 11:44:19.176 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-17 11:44:19.291 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-17 11:44:19.506 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-17 11:44:19.853 [info] Eager extensions activated
+2024-10-17 11:44:19.931 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:19.936 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:19.999 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:20.110 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:20.350 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:21.420 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:21.748 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-10-17 11:44:21.803 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:21.816 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:22.622 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 11:44:24.378 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-17 11:44:24.398 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-17 11:44:24.426 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-17 11:48:15.360 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2024-10-17 11:53:49.253 [error] [vscode.typescript-language-features] provider FAILED
+2024-10-17 11:53:49.253 [error] Error: <semantic> TypeScript Server Error (5.6.3)
+BADCLIENT: Bad error code, 6133 not found in range 955..962 (found: ); could have caused this error:
+Debug Failure. False expression: should not delete whole source file
+Error: BADCLIENT: Bad error code, 6133 not found in range 955..962 (found: ); could have caused this error:
+Debug Failure. False expression: should not delete whole source file
+    at tryDeleteDeclarationWorker (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159296:11)
+    at tryDeleteDeclaration (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159280:3)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159110:82
+    at _ChangeTracker.with (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:175529:5)
+    at Object.getCodeActions (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:159110:65)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:46
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:10)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150470:33
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getCodeFixesAtPosition (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150468:12)
+    at IpcIOSession.getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192329:50)
+    at getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:190394:43)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:474312)
+    at v.dispatchResponse (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:468282)
+    at v.dispatchMessage (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:467080)
+    at ChildProcess.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:466573)
+    at ChildProcess.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-17 12:27:04.677 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-17 12:27:05.470 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-10-17 13:24:23.559 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-10-17 14:06:32.833 [error] [vscode.typescript-language-features] provider FAILED
+2024-10-17 14:06:32.833 [error] Error: <semantic> TypeScript Server Error (5.6.3)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at consumeTokenAndAdvanceScanner (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178426:13)
+    at processNode (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178295:7)
+    at processChildNode (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178350:7)
+    at processChildNodes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178393:32)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178287:9
+    at visitNodes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:31788:14)
+    at forEachChildInJsxElement (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:32150:55)
+    at forEachChild (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:32304:35)
+    at processNode (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178271:5)
+    at processChildNode (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178350:7)
+    at processChildNodes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178393:32)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178287:9
+    at visitNodes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:31788:14)
+    at forEachChildInJsxFragment (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:32153:56)
+    at forEachChild (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:32304:35)
+    at processNode (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178271:5)
+    at formatSpanWorker (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178074:5)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178014:105
+    at getFormattingScanner (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176815:15)
+    at Object.formatNodeGivenIndentation (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:178014:10)
+    at getFormattedTextOfNode (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176217:43)
+    at format (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176198:27)
+    at computeNewText (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176199:217)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176160:25
+    at mapDefined (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2583:22)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176157:28
+    at mapDefined (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2583:22)
+    at Object.getTextChangesFromChanges (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176151:12)
+    at _ChangeTracker.getChanges (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:176048:35)
+    at _ChangeTracker.with (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:175530:20)
+    at Object.getCodeActionsToWrapJsxInFragment [as getCodeActions] (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:163049:62)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:46
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:152190:10)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150470:33
+    at flatMap (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:2513:17)
+    at Object.getCodeFixesAtPosition (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:150468:12)
+    at IpcIOSession.getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192329:50)
+    at getCodeFixes (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:190394:43)
+    at /snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192651:15
+    at IpcIOSession.executeWithRequestId (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192640:14)
+    at IpcIOSession.executeCommand (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192649:29)
+    at IpcIOSession.onMessage (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typescript.js:192697:68)
+    at process.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:525:14)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+    at Function.create (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:474312)
+    at v.dispatchResponse (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:468282)
+    at v.dispatchMessage (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:467080)
+    at ChildProcess.<anonymous> (/snap/code/172/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:466573)
+    at ChildProcess.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

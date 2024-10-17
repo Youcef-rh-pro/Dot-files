@@ -1,0 +1,10 @@
+{
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Purply (Light)",
+    "git.autofetch": true,
+    "editor.fontSize": 18
+}

@@ -1,0 +1,7 @@
+2024-10-14 14:41:31.893 [info] Started local extension host with pid 9626.
+2024-10-14 14:41:35.077 [info] [perf] Render performance baseline is 75ms
+2024-10-14 14:41:48.210 [error] [Extension Host] (node:9626) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-14 14:41:54.459 [info] Started local extension host with pid 9694.
+2024-10-14 14:41:57.463 [info] [perf] Render performance baseline is 62ms
+2024-10-14 15:00:10.573 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/youcef/Youcef-dev/todo-app/package-lock.json 

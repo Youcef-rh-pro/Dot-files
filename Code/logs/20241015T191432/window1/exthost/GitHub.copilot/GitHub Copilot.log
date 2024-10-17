@@ -1,0 +1,38 @@
+2024-10-15 19:14:39.669 [info] [certificates] Removed 1 expired certificates
+2024-10-15 19:14:40.182 [info] [fetcher] Using Helix fetcher.
+2024-10-15 19:14:40.182 [info] [code-referencing] Public code references are enabled.
+2024-10-15 19:14:40.211 [info] [auth] Successfully authenticated
+2024-10-15 19:16:41.502 [error] [default] Error sending telemetry FetchError: Client network socket disconnected before secure TLS connection was established
+    at fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Aae.fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ECONNRESET',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-10-15 19:16:56.647 [error] [default] Error sending telemetry FetchError: Client network socket disconnected before secure TLS connection was established
+    at fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Aae.fetch (/home/youcef/.vscode/extensions/github.copilot-1.238.0/lib/src/network/helix.ts:93:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ECONNRESET',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2024-10-15 19:39:53.897 [info] [fetcher] Using Helix fetcher.
+2024-10-15 19:39:53.897 [info] [code-referencing] Public code references are enabled.
+2024-10-15 20:04:54.386 [info] [fetcher] Using Helix fetcher.
+2024-10-15 20:04:54.387 [info] [code-referencing] Public code references are enabled.
+2024-10-15 20:29:54.927 [info] [fetcher] Using Helix fetcher.
+2024-10-15 20:29:54.927 [info] [code-referencing] Public code references are enabled.
+2024-10-15 20:54:55.401 [info] [fetcher] Using Helix fetcher.
+2024-10-15 20:54:55.401 [info] [code-referencing] Public code references are enabled.
+2024-10-15 23:39:08.463 [info] [fetcher] Using Helix fetcher.
+2024-10-15 23:39:08.463 [info] [code-referencing] Public code references are enabled.
+2024-10-16 00:04:08.914 [info] [fetcher] Using Helix fetcher.
+2024-10-16 00:04:08.914 [info] [code-referencing] Public code references are enabled.
