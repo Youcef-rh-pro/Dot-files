@@ -1,131 +1,0 @@
-2024-10-14 14:33:44.081 [info] [main] Log level: Info
-2024-10-14 14:33:44.081 [info] [main] Validating found git in: "git"
-2024-10-14 14:33:44.081 [info] [main] Using git "2.43.0" from "git"
-2024-10-14 14:33:44.081 [info] [Model][doInitialScan] Initial repository scan started
-2024-10-14 14:33:44.081 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
-2024-10-14 14:34:20.733 [info] > git clone https://github.com/pieroborrelliwrites/todo-app.git /home/youcef/Youcef-dev/devtool/todo-app --progress [1897ms]
-2024-10-14 14:34:20.734 [info] Cloning into '/home/youcef/Youcef-dev/devtool/todo-app'...
-remote: Enumerating objects: 40, done.        
-remote: Counting objects:   2% (1/40)        remote: Counting objects:   5% (2/40)        remote: Counting objects:   7% (3/40)        remote: Counting objects:  10% (4/40)        remote: Counting objects:  12% (5/40)        remote: Counting objects:  15% (6/40)        remote: Counting objects:  17% (7/40)        remote: Counting objects:  20% (8/40)        remote: Counting objects:  22% (9/40)        remote: Counting objects:  25% (10/40)        remote: Counting objects:  27% (11/40)        remote: Counting objects:  30% (12/40)        remote: Counting objects:  32% (13/40)        remote: Counting objects:  35% (14/40)        remote: Counting objects:  37% (15/40)        remote: Counting objects:  40% (16/40)        remote: Counting objects:  42% (17/40)        remote: Counting objects:  45% (18/40)        remote: Counting objects:  47% (19/40)        remote: Counting objects:  50% (20/40)        remote: Counting objects:  52% (21/40)        remote: Counting objects:  55% (22/40)        remote: Counting objects:  57% (23/40)        remote: Counting objects:  60% (24/40)        remote: Counting objects:  62% (25/40)        remote: Counting objects:  65% (26/40)        remote: Counting objects:  67% (27/40)        remote: Counting objects:  70% (28/40)        remote: Counting objects:  72% (29/40)        remote: Counting objects:  75% (30/40)        remote: Counting objects:  77% (31/40)        remote: Counting objects:  80% (32/40)        remote: Counting objects:  82% (33/40)        remote: Counting objects:  85% (34/40)        remote: Counting objects:  87% (35/40)        remote: Counting objects:  90% (36/40)        remote: Counting objects:  92% (37/40)        remote: Counting objects:  95% (38/40)        remote: Counting objects:  97% (39/40)        remote: Counting objects: 100% (40/40)        remote: Counting objects: 100% (40/40), done.        
-remote: Compressing objects:   2% (1/36)        remote: Compressing objects:   5% (2/36)        remote: Compressing objects:   8% (3/36)        remote: Compressing objects:  11% (4/36)        remote: Compressing objects:  13% (5/36)        remote: Compressing objects:  16% (6/36)        remote: Compressing objects:  19% (7/36)        remote: Compressing objects:  22% (8/36)        remote: Compressing objects:  25% (9/36)        remote: Compressing objects:  27% (10/36)        remote: Compressing objects:  30% (11/36)        remote: Compressing objects:  33% (12/36)        remote: Compressing objects:  36% (13/36)        remote: Compressing objects:  38% (14/36)        remote: Compressing objects:  41% (15/36)        remote: Compressing objects:  44% (16/36)        remote: Compressing objects:  47% (17/36)        remote: Compressing objects:  50% (18/36)        remote: Compressing objects:  52% (19/36)        remote: Compressing objects:  55% (20/36)        remote: Compressing objects:  58% (21/36)        remote: Compressing objects:  61% (22/36)        remote: Compressing objects:  63% (23/36)        remote: Compressing objects:  66% (24/36)        remote: Compressing objects:  69% (25/36)        remote: Compressing objects:  72% (26/36)        remote: Compressing objects:  75% (27/36)        remote: Compressing objects:  77% (28/36)        remote: Compressing objects:  80% (29/36)        remote: Compressing objects:  83% (30/36)        remote: Compressing objects:  86% (31/36)        remote: Compressing objects:  88% (32/36)        remote: Compressing objects:  91% (33/36)        remote: Compressing objects:  94% (34/36)        remote: Compressing objects:  97% (35/36)        remote: Compressing objects: 100% (36/36)        remote: Compressing objects: 100% (36/36), done.        
-Receiving objects:   2% (1/40)Receiving objects:   5% (2/40)Receiving objects:   7% (3/40)Receiving objects:  10% (4/40)Receiving objects:  12% (5/40)Receiving objects:  15% (6/40)Receiving objects:  17% (7/40)Receiving objects:  20% (8/40)Receiving objects:  22% (9/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  25% (10/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  27% (11/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  30% (12/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  32% (13/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  35% (14/40), 196.00 KiB | 374.00 KiB/sremote: Total 40 (delta 5), reused 38 (delta 3), pack-reused 0 (from 0)        
-Receiving objects:  37% (15/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  40% (16/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  42% (17/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  45% (18/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  47% (19/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  50% (20/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  52% (21/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  55% (22/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  57% (23/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  60% (24/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  62% (25/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  65% (26/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  67% (27/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  70% (28/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  72% (29/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  75% (30/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  77% (31/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  80% (32/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  82% (33/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  85% (34/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  87% (35/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  90% (36/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  92% (37/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  95% (38/40), 196.00 KiB | 374.00 KiB/sReceiving objects:  97% (39/40), 196.00 KiB | 374.00 KiB/sReceiving objects: 100% (40/40), 196.00 KiB | 374.00 KiB/sReceiving objects: 100% (40/40), 307.89 KiB | 521.00 KiB/s, done.
-Resolving deltas:   0% (0/5)Resolving deltas:  20% (1/5)Resolving deltas:  40% (2/5)Resolving deltas:  60% (3/5)Resolving deltas:  80% (4/5)Resolving deltas: 100% (5/5)Resolving deltas: 100% (5/5), done.
-2024-10-14 14:34:25.910 [info] [main] Log level: Info
-2024-10-14 14:34:25.910 [info] [main] Validating found git in: "git"
-2024-10-14 14:34:25.910 [info] [main] Using git "2.43.0" from "git"
-2024-10-14 14:34:25.910 [info] [Model][doInitialScan] Initial repository scan started
-2024-10-14 14:34:25.910 [info] > git rev-parse --show-toplevel [4ms]
-2024-10-14 14:34:25.919 [info] > git rev-parse --git-dir --git-common-dir [2ms]
-2024-10-14 14:34:25.948 [info] [Model][openRepository] Opened repository: /home/youcef/Youcef-dev/devtool/todo-app
-2024-10-14 14:34:25.969 [info] > git config --get commit.template [8ms]
-2024-10-14 14:34:25.971 [info] > git rev-parse --show-toplevel [3ms]
-2024-10-14 14:34:25.992 [info] > git rev-parse --show-toplevel [7ms]
-2024-10-14 14:34:25.997 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
-2024-10-14 14:34:25.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
-2024-10-14 14:34:26.004 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:34:26.006 [info] > git rev-parse refs/remotes/origin/master [2ms]
-2024-10-14 14:34:26.030 [info] > git status -z -uall [17ms]
-2024-10-14 14:34:26.031 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
-2024-10-14 14:34:26.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
-2024-10-14 14:34:27.743 [info] > git config --local branch.master.vscode-merge-base [1679ms]
-2024-10-14 14:34:27.743 [warning] [Git][config] git config failed: Failed to execute git
-2024-10-14 14:34:27.759 [info] > git config --get commit.template [1703ms]
-2024-10-14 14:34:27.759 [info] > git fetch [1812ms]
-2024-10-14 14:34:28.158 [info] > git reflog master --grep-reflog=branch: Created from *. [400ms]
-2024-10-14 14:34:28.438 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [265ms]
-2024-10-14 14:34:28.456 [info] > git config --get commit.template [302ms]
-2024-10-14 14:34:28.510 [info] > git check-ignore -v -z --stdin [35ms]
-2024-10-14 14:34:28.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [55ms]
-2024-10-14 14:34:28.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [104ms]
-2024-10-14 14:34:28.616 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:34:28.618 [info] > git config --local branch.master.vscode-merge-base origin/master [91ms]
-2024-10-14 14:34:28.661 [info] > git rev-parse refs/remotes/origin/master [45ms]
-2024-10-14 14:34:28.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [87ms]
-2024-10-14 14:34:28.700 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:34:28.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
-2024-10-14 14:34:28.718 [info] > git config --get commit.template [58ms]
-2024-10-14 14:34:28.750 [info] > git config --local branch.master.vscode-merge-base [33ms]
-2024-10-14 14:34:28.767 [info] > git rev-parse refs/remotes/origin/master [67ms]
-2024-10-14 14:34:28.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
-2024-10-14 14:34:28.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [65ms]
-2024-10-14 14:34:29.025 [info] > git merge-base refs/heads/master refs/remotes/origin/master [176ms]
-2024-10-14 14:34:29.042 [info] > git config --local branch.master.vscode-merge-base [212ms]
-2024-10-14 14:34:29.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [250ms]
-2024-10-14 14:34:29.099 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:34:31.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2105ms]
-2024-10-14 14:34:31.180 [info] > git diff --name-status -z --diff-filter=ADMR b5410bd3f55796ea4bc7b2028b0111ddd98b0c9b...refs/remotes/origin/master [2138ms]
-2024-10-14 14:34:31.194 [info] > git merge-base refs/heads/master refs/remotes/origin/master [15ms]
-2024-10-14 14:34:31.211 [info] > git rev-parse refs/remotes/origin/master [2112ms]
-2024-10-14 14:34:31.259 [info] > git status -z -uall [33ms]
-2024-10-14 14:34:31.259 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
-2024-10-14 14:34:31.265 [info] > git diff --name-status -z --diff-filter=ADMR b5410bd3f55796ea4bc7b2028b0111ddd98b0c9b...refs/remotes/origin/master [54ms]
-2024-10-14 14:34:32.321 [info] > git config --local branch.master.github-pr-owner-number [184ms]
-2024-10-14 14:34:32.321 [warning] [Git][config] git config failed: Failed to execute git
-2024-10-14 14:34:34.373 [info] > git check-ignore -v -z --stdin [4ms]
-2024-10-14 14:35:29.152 [info] > git check-ignore -v -z --stdin [2ms]
-2024-10-14 14:35:29.586 [info] > git config --get commit.template [19ms]
-2024-10-14 14:35:29.586 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
-2024-10-14 14:35:29.604 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:35:29.606 [info] > git rev-parse refs/remotes/origin/master [2ms]
-2024-10-14 14:35:29.651 [info] > git status -z -uall [27ms]
-2024-10-14 14:35:29.654 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
-2024-10-14 14:35:38.765 [info] > git config --get commit.template [46ms]
-2024-10-14 14:35:38.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
-2024-10-14 14:35:38.812 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:35:38.816 [info] > git rev-parse refs/remotes/origin/master [5ms]
-2024-10-14 14:35:38.900 [info] > git status -z -uall [44ms]
-2024-10-14 14:35:38.904 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
-2024-10-14 14:36:22.257 [info] > git config --get commit.template [30ms]
-2024-10-14 14:36:22.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
-2024-10-14 14:36:22.277 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:36:22.278 [info] > git rev-parse refs/remotes/origin/master [1ms]
-2024-10-14 14:36:22.319 [info] > git status -z -uall [23ms]
-2024-10-14 14:36:22.322 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
-2024-10-14 14:36:27.349 [info] > git config --get commit.template [3ms]
-2024-10-14 14:36:27.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
-2024-10-14 14:36:27.397 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:36:27.469 [info] > git rev-parse refs/remotes/origin/master [72ms]
-2024-10-14 14:36:27.520 [info] > git status -z -uall [26ms]
-2024-10-14 14:36:27.521 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
-2024-10-14 14:36:49.529 [info] > git config --get commit.template [17ms]
-2024-10-14 14:36:49.530 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
-2024-10-14 14:36:49.547 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:36:49.548 [info] > git rev-parse refs/remotes/origin/master [1ms]
-2024-10-14 14:36:49.585 [info] > git status -z -uall [19ms]
-2024-10-14 14:36:49.587 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
-2024-10-14 14:36:57.552 [info] > git config --get commit.template [18ms]
-2024-10-14 14:36:57.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
-2024-10-14 14:36:57.572 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:36:57.574 [info] > git rev-parse refs/remotes/origin/master [2ms]
-2024-10-14 14:36:57.622 [info] > git status -z -uall [24ms]
-2024-10-14 14:36:57.624 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
-2024-10-14 14:37:09.662 [info] > git config --get commit.template [35ms]
-2024-10-14 14:37:09.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
-2024-10-14 14:37:09.697 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:37:09.700 [info] > git rev-parse refs/remotes/origin/master [4ms]
-2024-10-14 14:37:09.765 [info] > git status -z -uall [34ms]
-2024-10-14 14:37:09.768 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
-2024-10-14 14:37:29.911 [info] > git fetch [1092ms]
-2024-10-14 14:37:29.974 [info] > git config --get commit.template [32ms]
-2024-10-14 14:37:29.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
-2024-10-14 14:37:30.008 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:37:30.012 [info] > git rev-parse refs/remotes/origin/master [4ms]
-2024-10-14 14:37:30.076 [info] > git status -z -uall [35ms]
-2024-10-14 14:37:30.079 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
-2024-10-14 14:39:25.227 [info] > git show --textconv :package-lock.json [26ms]
-2024-10-14 14:39:25.227 [info] > git ls-files --stage -- /home/youcef/Youcef-dev/devtool/todo-app/package-lock.json [5ms]
-2024-10-14 14:39:25.266 [info] > git cat-file -s 34b9d1dc4e53385c087220f3ff9825ff73e3c938 [16ms]
-2024-10-14 14:40:39.654 [info] > git fetch [1144ms]
-2024-10-14 14:40:39.744 [info] > git config --get commit.template [46ms]
-2024-10-14 14:40:39.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [48ms]
-2024-10-14 14:40:39.829 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/youcef/Youcef-dev/devtool/todo-app/.git/refs/remotes/origin/master'
-2024-10-14 14:40:39.830 [info] > git ls-files --stage -- /home/youcef/Youcef-dev/devtool/todo-app/package-lock.json [44ms]
-2024-10-14 14:40:39.869 [info] > git rev-parse refs/remotes/origin/master [41ms]
-2024-10-14 14:40:39.948 [info] > git status -z -uall [42ms]
-2024-10-14 14:40:39.949 [info] > git cat-file -s 34b9d1dc4e53385c087220f3ff9825ff73e3c938 [82ms]
-2024-10-14 14:40:39.952 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
-2024-10-14 14:40:40.020 [info] > git show --textconv :package-lock.json [22ms]
-2024-10-14 14:40:40.936 [info] > git ls-files --stage -- /home/youcef/Youcef-dev/devtool/todo-app/package-lock.json [5ms]
-2024-10-14 14:40:40.979 [info] > git cat-file -s 34b9d1dc4e53385c087220f3ff9825ff73e3c938 [5ms]
-2024-10-14 14:40:41.039 [info] > git show --textconv :package-lock.json [20ms]
